@@ -18,7 +18,7 @@ module.exports = {
       repo: 'https://github.com/Trohimets/web-plus-pm2-deploy.git',
       path: DEPLOY_PATH,
       'pre-deploy-local': `scp ./.env ${DEPLOY_USER}@${DEPLOY_HOST}:${DEPLOY_PATH}`,
-      'post-deploy': 'npm i && npm run build',
+      'post-deploy': 'export PATH=$PATH:~/.nvm/versions/node/v16.20.2/bin/ && npm i && npm run build',
     },
   },
 };
