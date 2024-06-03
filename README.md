@@ -21,12 +21,8 @@ Node 18.0, TypeScript 10.8, Express 4.17, REST API, Mongo DB, JWT
 
 - Frontend:
 
-```
-https://trohimets.mesto.nomoredomainswork.ru/
-```
+[https://trohimets.mesto.nomoredomainswork.ru/](https://trohimets.mesto.nomoredomainswork.ru/)
 
 - Backend:
 
-```
-https://api.trohimets.mesto.nomoredomainswork.ru/
-```
+[https://api.trohimets.mesto.nomoredomainswork.ru/](https://api.trohimets.mesto.nomoredomainswork.ru/)
